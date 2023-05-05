@@ -18,7 +18,6 @@ https://hackyourfuture.github.io/example-pages/Browsers/Week1/1-booklist/
 //cspell: enable
 
 function createBookList(books) {
-  // TODO your code goes in here, return the ul element
   const ulEl = document.createElement('ul');
 
   for (let i = 0; i < books.length; i++) {
@@ -29,7 +28,10 @@ function createBookList(books) {
     liEl.appendChild(p);
 
     const img = document.createElement('img');
-    img.src = books.coverUrl;
+    img.src = '../assets/cover1.jpg';
+    img.alt = 'book cover';
+    liEl.appendChild(img);
+
     liEl.classList.add(books[i].alreadyRead ? 'book-read' : 'book-not-read');
 
     ulEl.appendChild(liEl);
