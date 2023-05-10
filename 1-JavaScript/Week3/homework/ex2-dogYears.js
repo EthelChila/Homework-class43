@@ -18,9 +18,11 @@ calculate it!
 
 function calculateDogAge(number) {
   const dogsAge = number * 7;
-  const dogAgeInfo = `Your doggie is ${dogsAge} years old in dog years!`;
+    const dogAgeInfo = `Your doggie is ${dogsAge} years old in dog years!`;
+    console.log(dogAgeInfo);
+  
 
-  return dogAgeInfo;
+  return dogsAge;
 }
 calculateDogAge();
 
