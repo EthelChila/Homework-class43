@@ -2593,3 +2593,16 @@ Tests:       1 failed, 2 passed, 3 total
 Snapshots:   0 total
 Time:        0.593 s, estimated 1 s
 Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2023-05-10 12:00:18 info: ------------------------------------------
+2023-05-10 12:00:19 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2023-05-10 12:00:19 info: ------------------------------------------
+2023-05-10 12:00:22 info: All unit tests passed.
+2023-05-10 12:00:27 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:11:54 - Unknown word (Xdpd)
+
+2023-05-10 12:06:37 info: ----------------------------------------
+2023-05-10 12:06:37 info: >>> Running Unit Test `ex1-bookList` <<<
+2023-05-10 12:06:37 info: ----------------------------------------
+2023-05-10 12:06:44 info: All unit tests passed.
+2023-05-10 12:06:49 info: All steps were completed successfully
