@@ -2606,3 +2606,232 @@ ex3-hijackLogo.js:11:54 - Unknown word (Xdpd)
 2023-05-10 12:06:37 info: ----------------------------------------
 2023-05-10 12:06:44 info: All unit tests passed.
 2023-05-10 12:06:49 info: All steps were completed successfully
+2023-05-15 11:30:01 info: ---------------------------------------------
+2023-05-15 11:30:01 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:30:01 info: ---------------------------------------------
+2023-05-15 11:30:09 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+
+  ● Test suite failed to run
+
+    TypeError: bodyEl.appendChild is not a function
+
+      42 |   const h1El = document.createElement('h1');
+      43 |   h1El.textContent = error;
+    > 44 |   bodyEl.appendChild(h1El);
+         |          ^
+      45 |   console.log(error);
+      46 | }
+      47 |
+
+      at renderError (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:44:10)
+      at main (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:53:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        4.349 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+2023-05-15 11:33:39 info: ---------------------------------------------
+2023-05-15 11:33:39 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:33:39 info: ---------------------------------------------
+2023-05-15 11:33:46 info: All unit tests passed.
+2023-05-15 11:33:50 info: All steps were completed successfully
+2023-05-15 11:35:00 info: ---------------------------------------------
+2023-05-15 11:35:00 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:35:00 info: ---------------------------------------------
+2023-05-15 11:35:06 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+
+  ● Test suite failed to run
+
+    TypeError: bodyEl.appendChild is not a function
+
+      42 |   const h1El = document.createElement('h1');
+      43 |   h1El.textContent = error;
+    > 44 |   bodyEl.appendChild(h1El);
+         |          ^
+      45 | }
+      46 |
+      47 | async function main() {
+
+      at renderError (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:44:10)
+      at main (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:52:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        3.928 s, estimated 4 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+2023-05-15 11:37:08 info: ---------------------------------------------
+2023-05-15 11:37:08 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:37:08 info: ---------------------------------------------
+2023-05-15 11:37:15 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+
+  ● Test suite failed to run
+
+    TypeError: document.getElementsByTagName(...).appendChild is not a function
+
+      41 |   const h1El = document.createElement('h1');
+      42 |   h1El.textContent = error;
+    > 43 |   document.getElementsByTagName('body').appendChild(h1El);
+         |                                         ^
+      44 | }
+      45 |
+      46 | async function main() {
+
+      at renderError (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:43:41)
+      at main (file:/Users/chilachila/Desktop/Homework-class43/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:51:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        4.42 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+2023-05-15 11:38:22 info: ---------------------------------------------
+2023-05-15 11:38:22 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:38:22 info: ---------------------------------------------
+2023-05-15 11:38:27 info: All unit tests passed.
+2023-05-15 11:38:31 info: All steps were completed successfully
+2023-05-15 11:43:40 info: ---------------------------------------------
+2023-05-15 11:43:40 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-05-15 11:43:40 info: ---------------------------------------------
+2023-05-15 11:43:46 info: All unit tests passed.
+2023-05-15 11:43:50 info: All steps were completed successfully
+2023-05-15 02:33:48 info: ------------------------------------------
+2023-05-15 02:33:48 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2023-05-15 02:33:48 info: ------------------------------------------
+2023-05-15 02:33:55 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (128 ms)
+    ✓ should have all TODO comments removed (1 ms)
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()` (1 ms)
+    ✓ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:7  error  <button> is missing required \"type\" attribute  element-required-attributes·
+    ✖ 1 problem (1 error, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at toBe (test-runner/jsdom-helpers.js:46:28)
+      at Object.validateHTML (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        4.405 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2023-05-15 02:34:55 info: ------------------------------------------
+2023-05-15 02:34:55 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2023-05-15 02:34:55 info: ------------------------------------------
+2023-05-15 02:35:01 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (124 ms)
+    ✓ should have all TODO comments removed
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()`
+    ✓ should use try/catch (1 ms)
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:7  error  <button> is missing required \"type\" attribute  element-required-attributes·
+    ✖ 1 problem (1 error, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at toBe (test-runner/jsdom-helpers.js:46:28)
+      at Object.validateHTML (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        3.962 s, estimated 5 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2023-05-15 02:37:58 info: ------------------------------------------
+2023-05-15 02:37:58 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2023-05-15 02:37:58 info: ------------------------------------------
+2023-05-15 02:38:04 info: All unit tests passed.
+2023-05-15 02:38:08 info: All steps were completed successfully
+2023-05-15 03:22:37 info: ------------------------------------------
+2023-05-15 03:22:37 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2023-05-15 03:22:37 info: ------------------------------------------
+2023-05-15 03:22:43 info: All unit tests passed.
+2023-05-15 03:22:47 info: All steps were completed successfully
+2023-05-15 03:28:01 info: -----------------------------------------
+2023-05-15 03:28:01 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2023-05-15 03:28:01 info: -----------------------------------------
+2023-05-15 03:28:04 info: All unit tests passed.
+2023-05-15 03:28:08 info: All steps were completed successfully
+2023-05-15 03:38:01 info: ----------------------------------------
+2023-05-15 03:38:01 info: >>> Running Unit Test `ex4-diceRace` <<<
+2023-05-15 03:38:01 info: ----------------------------------------
+2023-05-15 03:38:04 info: All unit tests passed.
+2023-05-15 03:38:08 info: All steps were completed successfully
+2023-05-15 03:47:38 info: ----------------------------------------
+2023-05-15 03:47:38 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2023-05-15 03:47:38 info: ----------------------------------------
+2023-05-15 03:47:38 warn: A unit test file was not provided.
+2023-05-15 03:47:42 info: All steps were completed successfully
+2023-05-15 03:53:48 info: --------------------------------------------
+2023-05-15 03:53:48 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2023-05-15 03:53:48 info: --------------------------------------------
+2023-05-15 03:53:48 warn: A unit test file was not provided.
+2023-05-15 03:53:52 info: All steps were completed successfully
